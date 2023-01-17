@@ -1,0 +1,18 @@
+@use "../variables/variables";
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  background-color: #fbffff;
+  border-radius: 16px;
+
+  &__input {
+    color: variables.$color-neutral-grayish-blue;
+
+    a {
+      color: variables.$color-primary-red;
+    }
+  }
+}
